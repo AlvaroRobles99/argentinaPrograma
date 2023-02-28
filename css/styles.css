@@ -20,13 +20,15 @@ header{
     position: fixed;
     background-color: #59554e;
    width: 100%;
-   margin-bottom: 90%;
+   margin-bottom: 100%;
+ 
 }
 main{
     display: flex;
     flex-direction: column;
    margin-top: 10%;
-   background-color:  #f3f4e5;
+   background-color:  #e2e3d9;
+   
 
 }
 section{
@@ -72,7 +74,7 @@ img:hover{
     
 }
 .barraLateral{ 
-   
+    
     display: flex;
     list-style: none;
     flex-direction: row;
@@ -87,7 +89,7 @@ img:hover{
     border-radius: 50rem;
     border-color: #f3f4e5;
     border-width: 10px;
-    border-style: ridge;
+    border-style: initial;
 }
 .fotoPerfil:hover{
     scale: none;
@@ -101,17 +103,21 @@ img:hover{
 .inicioT{
     background-color: #59554e;
     display: flex;
-    flex-direction: column;
+  
+    
+    flex-direction: row;
+    align-content: center;
     align-items: center;
-    width: 100%;
-   margin: 0;
+    flex-wrap: nowrap;
 }
 .division{
     scroll-margin-top: 15ex;
     display: flex;
+    flex-flow: row wrap;
     flex-direction: row;
-    justify-content: center;
+    align-items: stretch;
     flex-wrap: wrap;
+    justify-content: space-between
 }
 p{
     color: black;
@@ -120,10 +126,15 @@ p{
 h1{
     color: #f3f4e5;
     font-size: xx-large;
+    margin: 1rem;
+    
 }
 h2{
-    color: black;
-    background-color: #e2e3d9;
+    color: #f3f4e5;
+    background-color: #59554e;
+    width: 100%;
+    padding: 0.5rem;
+    padding-left: 1rem;
    
 }
 h3{
@@ -133,17 +144,29 @@ h3{
 }
 .card{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    padding-top: 1rem;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .cardtext{
-    display: flex;
-    color: #f3f4e5;
-    flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
-    align-items: center;
+    
+        display: flex;
+        color: #f3f4e5;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
 }
 .cardtext p{
     color: #f3f4e5;
+}
+.redesSociales{
+    display: flex;
+
+}
+footer{
+    padding: 1rem;
+    background-color: #59554e;
 }
