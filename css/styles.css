@@ -10,15 +10,18 @@ html{
 body{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 header{
     padding-bottom: 100%;
     background-color: whitesmoke;
+    position: fixed;
+    margin-right: 80%;
 }
 main{
     display: flex;
     flex-direction: column;
+    margin-left: 25%;
 }
 section{
     background-color: whitesmoke;
@@ -27,8 +30,12 @@ section{
 li{
     display: flex;
     flex-direction: column;
+    margin: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     align-items: center;
-    margin: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 a{
     display: flex;
@@ -40,21 +47,24 @@ a{
 }
 a:hover{
     color: rgba(0, 0, 0, 0.493);
-    scale: 1.2;
+    scale: 1.1;
 }
 img{
     width: 50px;
     height: 50px;
     transition: 1s;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 img:hover{
-    scale: 1.2;
+    scale: 1.1;
     
 }
 .barraLateral{
-    
+    display: flex;
     list-style: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     
 }
 .fotoPerfil{
