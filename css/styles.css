@@ -241,11 +241,12 @@ button:hover{
     background-color: #b7b8b0;
 }
 .certificado{
-    width: 350px;
-    height: 250px;
+    width: 351px;
+    height: 251px;
 }
 .containerCompetencia{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 0.01rem;
 }
