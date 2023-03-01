@@ -141,6 +141,10 @@ h3{
     margin-bottom: 1rem;
     text-align: center;
 }
+h4{
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
 .card{
     display: flex;
     flex-direction: row;
@@ -235,4 +239,13 @@ button{
 button:hover{
     color: #161615;
     background-color: #b7b8b0;
+}
+.certificado{
+    width: 350px;
+    height: 250px;
+}
+.containerCompetencia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
