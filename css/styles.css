@@ -173,6 +173,10 @@ footer{
     padding: 1rem;
     background-color: #59554e;
 }
+footer p{
+    color: #f3f4e5;
+    text-align: center;
+}
 .containerDatos{
     display: flex;
     padding: 1rem;
@@ -203,6 +207,11 @@ footer{
     
 }
 .botonAbrir{
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+}
+.botonCerrar{
     width: 40px;
     height: 40px;
     margin-right: 1rem;
@@ -241,12 +250,17 @@ button:hover{
     background-color: #b7b8b0;
 }
 .certificado{
-    width: 351px;
-    height: 251px;
+    width: 17rem;
+    height: 12rem;
 }
 .containerCompetencia{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0.01rem;
+    
+}
+@media only screen and (max-width: 1176px) {
+    .certificado{
+        width: 10rem;
+        height: 7rem;}
 }
