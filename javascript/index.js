@@ -91,26 +91,35 @@ const handleBotonDesplegar2 = ()=>{
 }
 const handleBotonDesplegar3 = ()=>{
     contenedor3.innerHTML = ""
-    contenedor3.innerHTML = `  <div>
-    <h4>CURSO INTRODUCCION AL MUNDO WEB</h4>
+    contenedor3.innerHTML = ` <div>
+    <h4>Curso Introduccion al Mundo Web</h4>
     <img class="certificado" src="imagnes/Certificado-Introducción-al-mundo-web-EducaciónIT.png"
         alt="Certificado-Introducción-al-mundo-web-EducaciónIT">
 </div>
 <div>
-    <h4> WEBINAR FULLSTACK WEB DEVELOPER</h4>
+    <h4> Webinar Fullstack Web Developer</h4>
     <img class="certificado" src="imagnes/Certificado-Full-Stack-Web-Developer-EducaciónIT.png"
         alt="Certificado-Full-Stack-Web-Developer-EducaciónIT">
 </div>
 <div>
-    <h4>SEMINARIO INGEÑERIA MECANICA</h4>
+    <h4>Curso Fundamentos del Diseño Grafico</h4>
+    <img class="certificado" src="imagnes/Certificado-Fundamentos-del-Diseño-Gráfico-EducaciónIT.png" alt="curso de fundamentos del diseño grafico">
+</div>
+<div>
+    <h4>II Seminario Ingeñeria Mecanica 2018</h4>
     <img class="certificado" src="imagnes/sim.png" alt="seminario ingeñeria mecanica">
+</div>
+<div>
+    <h4>Curso Introduccion a Git y GitHub</h4>
+    <img class="certificado" src="imagnes/introduccion a git y github.png" alt="curso introduccion a git y github">
+</div>
+<div>
+    <h4>Curso HTML y CSS desde Cero</h4>
+    <img class="certificado" src="imagnes/html y css desde cero.png" alt="curso html y css desde cero">
 </div>
 <div>
     <h4>IDIOMAS:</h4>
     <p> <strong> ESPAÑOL : Nativo <br> INGLES: Avanzado</strong></p>
-</div>
-<div>
-
 </div>`
 }
 const handleBotonDesplegar4 = ()=>{
