@@ -197,6 +197,8 @@ footer p{
     border: #333333;
     border-width: medium;
     border-style: solid;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .textHead{
     color: #f3f4e5;
