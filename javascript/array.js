@@ -61,6 +61,13 @@ const listaCertificados = [
         img : "imagnes/Certificado-Full-Stack-Web-Developer-EducaciónIT.png",
         alt : "Certificado-Full-Stack-Web-Developer-EducaciónIT",
         url : "https://api.educacionit.com/pdf/certificados/alvaro-agustin-robles-876465/63673"
+    },
+    {
+        id : 10 ,
+        nombre : "Webinar Fullstack Web Developer",
+        img : "imagnes/Certificado-Infraestructuras-IT-con-Software-libre-y-Código-abierto-EducaciónIT.png",
+        alt : "Certificado-Ifrasestructuras-IT-con-Software-libre-y-Código-abierto-EducaciónIT",
+        url :  "https://api.educacionit.com/pdf/certificados/alvaro-agustin-robles-876465/64300",
     }
 ]
 const contenedorCertificado = document.querySelector('#contenedor3')
