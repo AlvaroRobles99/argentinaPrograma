@@ -68,6 +68,27 @@ const listaCertificados = [
         img : "imagnes/Certificado-Infraestructuras-IT-con-Software-libre-y-Código-abierto-EducaciónIT.png",
         alt : "Certificado-Ifrasestructuras-IT-con-Software-libre-y-Código-abierto-EducaciónIT",
         url :  "https://api.educacionit.com/pdf/certificados/alvaro-agustin-robles-876465/64300",
+    },
+    {
+        id : 11 ,
+        nombre : "Git & GitHub A Practical Course: Beginner To Advanced Level",
+        img : "imagnes/git and github.jpg",
+        alt : "Git & GitHub A Practical Course: Beginner To Advanced Level",
+        url :  "https://www.udemy.com/certificate/UC-62ccb6d1-6914-4d0b-983f-02c7a6681e8b/",
+    },
+    {
+        id : 12,
+        nombre :"Curso completo de Git y GitHub. Prepárate para el Desarrollo",
+        img :"imagnes/git y git hub para desarrolladores preparate para el desarrollo.jpg" ,
+        alt : "Curso completo de Git y GitHub. Prepárate para el Desarrollo",
+        url : "https://www.udemy.com/certificate/UC-cc64ecf7-b97b-4d5a-aba8-9f484b78b20c/",
+    },
+    {
+        id : 13,
+        nombre : "Git para desarrolladores",
+        img : "imagnes/git para desarrolladores.jpg" ,
+        alt : "Git para desarrolladores",
+        url : "https://www.udemy.com/certificate/UC-62f78d75-0190-4128-a8b4-b49f5e13ca2c/",
     }
 ]
 const contenedorCertificado = document.querySelector('#contenedor3')
