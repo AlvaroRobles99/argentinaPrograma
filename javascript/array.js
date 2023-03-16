@@ -89,6 +89,13 @@ const listaCertificados = [
         img : "imagnes/git para desarrolladores.jpg" ,
         alt : "Git para desarrolladores",
         url : "https://www.udemy.com/certificate/UC-62f78d75-0190-4128-a8b4-b49f5e13ca2c/",
+    },
+    {
+        id : 14,
+        nombre : " Front End Web Development with Javascript HTML CSS Bootstrap ",
+        img : "imagnes/frontende.jpg",
+        alt : " Front End Web Development with Javascript HTML CSS Bootstrap",
+        url : "https://www.udemy.com/certificate/UC-67701eab-a54d-4d9e-9bc0-59a1f4e63b58/",
     }
 ]
 const contenedorCertificado = document.querySelector('#contenedor3')
